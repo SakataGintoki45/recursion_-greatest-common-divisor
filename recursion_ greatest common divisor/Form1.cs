@@ -21,16 +21,16 @@ namespace recursion__greatest_common_divisor
             {
                 if (number1 < 0 || number2 < 0)
                 {
-                    MessageBox.Show("Por favor, ingrese números positivos.");
+                    MessageBox.Show("Please enter positive numbers.");
                     return;
                 }
 
                 int result = GCD(number1, number2);
-                lblResult.Text = $"El MCD de {number1} y {number2} es: {result}";
+                lblResult.Text = $"The GCD of {number1} and {number2} is: {result}";
             }
             else
             {
-                MessageBox.Show("Por favor, ingrese números válidos.");
+                MessageBox.Show("Please enter valid numbers.");
             }
         }
     }
